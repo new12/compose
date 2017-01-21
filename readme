@@ -1,1 +1,2 @@
-docker stop $(docker ps -q)
+启动：docker-compose up
+停止所有容器：docker stop $(docker ps -q)
